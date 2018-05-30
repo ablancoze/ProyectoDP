@@ -24,7 +24,7 @@ public class ClasePrincipal {
 		
 		try {
 			
-		    FicheroCarga.procesarFichero("init_10x6_4.txt", cargador); //leemos el fichero
+		    FicheroCarga.procesarFichero("init_10x10_4.txt", cargador); //leemos el fichero
 		    Mapa.getMapa().simulacion(maxTurnos);	//iniciamos la simulacion
 		}
 		catch(ControladorDeErrores valor){

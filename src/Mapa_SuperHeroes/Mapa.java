@@ -293,13 +293,13 @@ public class Mapa {
 		LinkedList<Sala>recorrido=new LinkedList<Sala>();
 		LinkedList<LinkedList<Sala>>todosLosCaminos=new LinkedList<LinkedList<Sala>>();
 		
-		obtenerTodosLosCaminos(0, this.salaHombrePuerta, visitados, recorrido, todosLosCaminos);
-		//obtenerFrecuencia(0, this.salaHombrePuerta, visitados, recorrido);
+		//obtenerTodosLosCaminos(0, this.salaHombrePuerta, visitados, recorrido, todosLosCaminos);
+		obtenerFrecuencia(0, this.salaHombrePuerta, visitados, recorrido);
 		LinkedList<Sala>salasOrdenadas=new LinkedList<Sala>();
 		
-		obtenerFrecuencia(salasOrdenadas,todosLosCaminos);//Nos devuelve el numero de caminos que hay entre la sala origen y la final
-		distribuirArmas(salasOrdenadas,armasSalas);
-		//distribuirArmas(recorrido,armasSalas);
+	//	obtenerFrecuencia(salasOrdenadas,todosLosCaminos);//Nos devuelve el numero de caminos que hay entre la sala origen y la final
+		//distribuirArmas(salasOrdenadas,armasSalas);
+		distribuirArmas(recorrido,armasSalas);
 		
 	}
 	
@@ -309,10 +309,10 @@ public class Mapa {
 	 * @param armasSalas Array con las armas que se van a distribuir.
 	 */
 	private void distribuirArmas(LinkedList<Sala> salas,Arma [] armasSalas) {
+		Collections.sort(salas, Collections.reverseOrder(new OrdenarSalas()));
 		int aux=0;
-		for (int i = 0; i<12 && !salas.isEmpty(); i++) {
-			for (int j = aux; salas.getFirst().tamañoArmas() < 5; j++) {
-				
+		while(aux < armasSalas.length) {
+			for (int j = aux; salas.getFirst().tamañoArmas()<5 && armasSalas.length > j ; j++) {
 				salas.getFirst().insertarArma(armasSalas[j]);
 			}
 			salas.removeFirst();
@@ -395,11 +395,8 @@ public class Mapa {
 					if(bandera>0){//Quiere decir que el camino es correcto
 						
 						aux.setFrecuencia(aux.getFrecuencia()+bandera);
-						if(recorrido.contains(aux)){
-							Collections.sort(recorrido, Collections.reverseOrder(new OrdenarSalas()));
-						}else{
+						if(!recorrido.contains(aux)){
 							recorrido.add(aux);
-							Collections.sort(recorrido, Collections.reverseOrder(new OrdenarSalas()));
 						}
 						caminosHastaAhora=caminosHastaAhora+bandera;
 					}
@@ -409,12 +406,11 @@ public class Mapa {
 			return caminosHastaAhora;
 		}
 		aux.frecuenciaMas();
-		if(recorrido.contains(aux)){
-			Collections.sort(recorrido, Collections.reverseOrder(new OrdenarSalas()));
-		}else{
+		
+		if(!recorrido.contains(aux)){
 			recorrido.add(aux);
-			Collections.sort(recorrido, Collections.reverseOrder(new OrdenarSalas()));
 		}
+		
 		bandera++;
 
 		return bandera;
@@ -468,7 +464,7 @@ public class Mapa {
 				salas.add(tablero[i][j]);
 			}
 		}
-		Collections.sort(salas, Collections.reverseOrder(new OrdenarSalas()));
+		//Collections.sort(salas, Collections.reverseOrder(new OrdenarSalas()));
 	}
 	
 	
