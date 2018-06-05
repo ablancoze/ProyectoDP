@@ -1,6 +1,8 @@
 package Estructuras;
 
 import java.io.IOException;
+import java.util.LinkedList;
+import java.util.Queue;
 
 import Mapa_SuperHeroes.Mapa;
 
@@ -208,6 +210,69 @@ public class Arbol<T extends Comparable<T>> {
 		return altura2;
 	}
 	
+	/**
+	 * Metodo que realiza una busqueda en Anchura de un dato 
+	 * @param A: arbol donde se encuentras los datos
+	 * @param dato: dato que queremos buscar en la estrucctura
+	 * @return TRUE si el dato se encuetra en el arbol, FALSE si no se encuentra.
+	 */
+	private boolean busquedaAnchura (Arbol<T> A,T dato){
+		Arbol<T>  b;
+		Queue<Arbol<T>> c=new LinkedList();
+		c.add(A);
+		while (!c.isEmpty()) {
+			b = c.peek();
+			c.remove();
+			if (! b.esVacio ) {
+				if(dato.compareTo(b.datoRaiz)==0){//procesamiento de la raíz
+					return true;
+				}
+				c.add(b.hIzq);
+				c.add(b.hDer);
+			}
+		}
+		return false;
+	}
+	
+	
+	
+	/**
+	 * 
+	 * @param dato
+	 * @param cierto
+	 * @return
+	 */
+	private T datoPadre(T dato,boolean[] cierto){
+	    Arbol<T> aux=null;
+	    T  encontrado=null;
+	    if (!vacio()) {
+	        if (this.datoRaiz.equals(dato)){
+	            encontrado = this.datoRaiz;
+	            cierto[0]=true;
+	        } else {
+	            if (dato.compareTo(this.datoRaiz)<0)	//dato < datoRaiz
+	                aux=getHijoIzq();
+	            else									//dato > datoRaiz
+	                aux=getHijoDer();
+	            if (aux!=null)
+	                encontrado = aux.datoPadre(dato,cierto);
+	            
+			    if (cierto[0]==true){
+			    	encontrado=this.getRaiz();
+			    	cierto[0]=false;
+			    }
+	        }
+	        
+	    }
+	    return encontrado;
+	}
+	
+	private LinkedList<T> datosNivel(){
+		
+		
+		return null;
+		
+	}
 	
 	
 	
@@ -433,6 +498,47 @@ public class Arbol<T extends Comparable<T>> {
 		return 0;
 	}
 	
+	/**
+	 * 
+	 * @param dato
+	 * @return
+	 */
+	public boolean busquedaAnchura(T dato){
+		if (!this.vacio()){
+			return busquedaAnchura(this,dato);
+		}
+		return false;
+	}
+	
+	public int numNodos(){
+		Arbol<T> aux=null;
+		int total=0;
+	    if (!vacio()) {
+	        if ((aux=getHijoIzq())!=null) {
+	          total=total+aux.numNodos();
+	        }    
+	      
+	        total=total+1;
+	        
+	        if ((aux=getHijoDer())!=null){
+	        	total=total+aux.numNodos();
+	        }    
+	    }
+	    return total;
+	}
+	
+	
+	public T datoPadre(T dato){
+		boolean[] cierto;
+		cierto=new boolean[1];
+		cierto[0]=false;
+		
+		return datoPadre(dato,cierto);
+		
+	}
+	
+	
+
 	
 	
 	

@@ -30,6 +30,7 @@ public class HombrePuertaTest {
 	public void getMayorArmaTest() {
 		
 		assertTrue(hp.getArmaMayor().getNombre()=="Baston");
+		assertTrue(hp.busquedaAnchura().getNombre()=="Baston");
 		assertTrue(hp.getArmaMayor().getPoder()==28);
 		assertFalse(hp.getArmaMayor().getPoder()<28);
 

@@ -2,6 +2,9 @@ package Estructuras;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Set;
+import java.util.TreeSet;
+
+import Mapa_SuperHeroes.Sala;
 
 /**
  * PROYECTO DP 17/18
@@ -328,6 +331,39 @@ public class Grafo {
     	  return null;
     	  
       }
+      
+	public void todosCaminos(Integer origen, Integer destino, LinkedList<Integer>visitados,LinkedList<LinkedList<Integer>>todosLosCaminos){
+		
+		Integer vertice=0;//Nodo vertice al nodo en el que estamos
+		
+		TreeSet<Integer> ady= new TreeSet<Integer>();//creamos un treeSet para guardar los adyacentes del nodo con el que estamos trabajando
+		
+		visitados.add(origen);
+		
+		if(origen!=destino){//Si el origen es igual al destino el camino que se ha llevado a cabo es valido, si no lo es seguimos explorando caminos
+
+			visitados.add(origen);//A�adimos el nodo con el que estamos trabajando al visitados
+
+			this.adyacentes(origen, ady);//Cogemos los adyacentes del nodo que estamos tratando
+
+			while(!ady.isEmpty()){//Mientras haya nodos por explorar y no hayamos llegado al final
+
+				vertice=ady.first();//Igualo el nodo axuliar al primer adyancente
+
+				ady.remove(vertice);//Elimino el adyacente que vamos a tratar
+				
+				if(!visitados.contains(vertice)){
+					todosCaminos(vertice, destino,visitados,todosLosCaminos);
+				}
+			}
+			visitados.remove(origen);
+			
+		}else{
+			LinkedList<Integer>recorridoValido=new LinkedList<Integer>(visitados);
+			visitados.remove(origen);
+			todosLosCaminos.add(recorridoValido);//Cuando llegue a la sala objetivo entonces el camino sera correcto, por lo tanto lo guardo.
+		}
+	} 
 
     
 	

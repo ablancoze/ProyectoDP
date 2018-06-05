@@ -1,5 +1,7 @@
 package Puerta;
 import java.io.IOException;
+import java.util.LinkedList;
+import java.util.Queue;
 
 import Estructuras.*;
 import Mapa_SuperHeroes.*;
@@ -141,6 +143,41 @@ public class HombrePuerta {
 			}
 		}
 		return acumulada;
+	}
+	
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public Arma busquedaAnchura (){
+		Arbol<Arma>  b;
+		Queue<Arbol<Arma>> c=new LinkedList();
+		c.add(this.contenedorArmas);
+		Arma armaMayor=null;
+		while (!c.isEmpty()) {
+			b = c.peek();
+			c.remove();
+			if (! b.vacio()) {
+				try {
+					if(b.getRaiz().getPoder()>armaMayor.getPoder()){//procesamiento de la raíz
+						armaMayor=b.getRaiz();
+					}
+					if(b.getRaiz().getPoder()==armaMayor.getPoder()){
+						if(b.getRaiz().compareTo(armaMayor)>0)
+							armaMayor=b.getRaiz();
+					}
+				} catch (NullPointerException e) {
+					armaMayor=b.getRaiz();
+				}
+				
+				if(b.getHijoIzq()!=null)
+					c.add(b.getHijoIzq());
+				if(b.getHijoDer()!=null)
+					c.add(b.getHijoDer());
+			}
+		}
+		return armaMayor;
 	}
 	
 	
