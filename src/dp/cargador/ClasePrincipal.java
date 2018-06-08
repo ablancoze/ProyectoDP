@@ -23,8 +23,8 @@ public class ClasePrincipal {
 		Cargador cargador = new Cargador();
 		
 		try {
-			
-		    FicheroCarga.procesarFichero("init_10x10_4.txt", cargador); //leemos el fichero
+			System.out.println("Configuracion inicial: "+args[0]);
+		    FicheroCarga.procesarFichero(args[0], cargador); //leemos el fichero
 		    Mapa.getMapa().simulacion(maxTurnos);	//iniciamos la simulacion
 		}
 		catch(ControladorDeErrores valor){

@@ -1,4 +1,5 @@
 package Estructuras;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Set;
@@ -13,7 +14,7 @@ import Mapa_SuperHeroes.Sala;
  * <b> Blanco Mangut, Alvaro </b><br>
  * Ablancoze@alumnos.unex.es <br>
  */
-public class Grafo {
+public class Grafo implements Cloneable {
 	public static final int MAXVERT=115;
 	public static final int INFINITO = 9999;
 	public static final int NOVALOR = -1;
@@ -62,6 +63,30 @@ public class Grafo {
             //floydP[x][x]=NO_VALOR;
         }
     }
+    
+    public Grafo(Grafo g){
+    	numNodos=g.numNodos;
+    	for (int i = 0; i < g.numNodos; i++) {
+    		nodos[i]=g.nodos[i];
+			for (int j = 0; j < g.numNodos; j++) {
+				arcos[i][j]=g.arcos[i][j];
+				warshallC[i][j]=g.warshallC[i][j];
+				floydC[i][j]=g.floydC[i][j];
+				floydP[i][j]=g.floydP[i][j];
+			}
+		}
+    }
+    
+    public Grafo clone(){
+    	Grafo clon;
+		try {
+			clon = (Grafo) super.clone();
+		} catch (CloneNotSupportedException e) {
+			return null;
+		}
+    	return clon;
+    }
+
     
     /**
     * Metodo que comprueba si el grafo esta vacio
@@ -240,8 +265,7 @@ public class Grafo {
      /**
      * Metodo que muestra las matrices de coste y camino de Floyd
      */
-     public void mostrarFloydC()
-     {
+     public void mostrarFloydC(){
          int x,y;
          System.out.println("floydC:");
          for (y=0;y<numNodos;y++) {
@@ -363,8 +387,62 @@ public class Grafo {
 			visitados.remove(origen);
 			todosLosCaminos.add(recorridoValido);//Cuando llegue a la sala objetivo entonces el camino sera correcto, por lo tanto lo guardo.
 		}
-	} 
+	}
+	
+	
+	
+	/**
+	 * 
+	 * @param vertice
+	 * @return
+	 */
+	public int excentricidad(int vertice){
+		int maximo=0;
+		int sala=0;
+		for (int i = 0; i < numNodos; i++) {
+			if(maximo<floydC[vertice][i]){
+				maximo=floydC[vertice][i];
+				sala=i;
+			}
+		}
+		return maximo;
+	}
 
+	
+	public int nodoCentral(){
+		int execentricidadMinima=excentricidad(0);
+		int salaCentral=0;
+		for (int i = 1; i < numNodos; i++) {
+			if (execentricidadMinima>excentricidad(i)){
+				execentricidadMinima=excentricidad(i);
+				salaCentral=i;
+			}
+		}
+		return salaCentral;
+	}
+	
+	public boolean existeCiclo(int vertice){
+		boolean esCiclico=false;
+		TreeSet<Integer>ady=new TreeSet<Integer>();
+		adyacentes(vertice, ady);
+		Integer [] adyA= new Integer[ady.size()];
+		ady.toArray(adyA);
+		for (int i = 0; i < adyA.length; i++) {
+			borraArco(adyA[i], vertice);
+		}
+		floyd();
+		warshall();
+		for (int i = 0; i < adyA.length; i++) {
+			for (int j = 0; j < adyA.length; j++) {
+				if(adyA[i]!=adyA[j]){
+					esCiclico=warshallC[adyA[i]][adyA[j]];
+					if(esCiclico==true)
+						return esCiclico;
+				}
+			}
+		}
+		return esCiclico;		
+	}
     
 	
 	/**

@@ -18,7 +18,7 @@
 (path:E: N E E N E N W N W N E E E E N N E E S S S E E S S S S)
 (turn:0)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |3  |_  | |    _ _ 2|
 |  _  |  _ _| | |_  |
@@ -50,7 +50,7 @@
 (shflight:E:90:1:)
 (turn:1)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |W 2|_  | |    _ _ V|
 |  _  |  _ _| | |_ A|
@@ -82,7 +82,7 @@
 (shflight:E:80:1:)
 (turn:2)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |W  |_  | |    _ _  |
 |  2  |  _ _| | |_ V|
@@ -114,7 +114,7 @@
 (shflight:E:81:2:)
 (turn:3)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |W  |_  | |    _ _  |
 |P _ D|  _ _| | |_  |
@@ -146,7 +146,7 @@
 (shflight:E:82:3:)
 (turn:4)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_ W|_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -178,7 +178,7 @@
 (shflight:E:72:4:)
 (turn:5)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  W  |  _ _| | |_  |
@@ -210,7 +210,7 @@
 (shflight:E:73:5:)
 (turn:6)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _ W|  _ _| | |_  |
@@ -242,7 +242,7 @@
 (shflight:E:63:6:)
 (turn:7)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |P _  |  _ _| | |_ A|
@@ -274,7 +274,7 @@
 (shflight:E:62:7:)
 (turn:8)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  P  |  _ _| | |A V|
@@ -306,7 +306,7 @@
 (shflight:E:52:8:)
 (turn:9)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _ P|  _ _| | |V A|
@@ -338,7 +338,7 @@
 (shflight:E:51:9:)
 (turn:10)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _ A|
 |  _  |  _ _| | |_ V|
@@ -370,7 +370,7 @@
 (shphysical:D:44:10:(Baston,28)(CadenaFuego,19)(Cetro,22)(Lucille,23))
 (turn:11)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ A V|
 |  _  |  _ _| | |_  |
@@ -402,7 +402,7 @@
 (shphysical:D:45:11:(Baston,28)(CadenaFuego,19)(Cetro,22)(Lucille,23))
 (turn:12)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    A V  |
 |  _  |  _ _| | |_  |
@@ -434,7 +434,7 @@
 (shflight:E:43:12:)
 (turn:13)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |  A V _  |
 |  _  |  _ _| | |_  |
@@ -466,7 +466,7 @@
 (shflight:E:44:13:)
 (turn:14)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |  V _ _  |
 |  _  |  _ _|A| |_  |
@@ -498,7 +498,7 @@
 (shflight:E:45:14:)
 (turn:15)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _|V| |_  |
@@ -530,7 +530,7 @@
 (shextrasensorial:P:41:15:(Bola,10)(Flecha,17)(GuanteInfinito,21)(Tentaculo,24)(Tridente,13))
 (turn:16)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -562,7 +562,7 @@
 (shextrasensorial:P:40:16:(Bola,10)(Flecha,17)(GuanteInfinito,21)(Tentaculo,24)(Tridente,13))
 (turn:17)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| |A|_  |
@@ -593,7 +593,7 @@
 (shphysical:D:47:17:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Lucille,23)(Nullifier,23))
 (turn:18)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| |V|_  |
@@ -624,7 +624,7 @@
 (shphysical:D:57:18:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23))
 (turn:19)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -655,7 +655,7 @@
 (shphysical:D:58:19:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23))
 (turn:20)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -686,7 +686,7 @@
 (shphysical:D:59:20:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23))
 (turn:21)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -717,7 +717,7 @@
 (shphysical:D:69:21:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23))
 (turn:22)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -748,7 +748,7 @@
 (shphysical:D:68:22:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23)(Sable,16))
 (turn:23)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -779,7 +779,7 @@
 (shphysical:D:78:23:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23)(Sable,16))
 (turn:24)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -810,7 +810,7 @@
 (shphysical:D:88:24:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23)(Sable,16))
 (turn:25)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -841,7 +841,7 @@
 (shphysical:D:98:25:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23)(Sable,16))
 (turn:26)
 (map:99)
-(doorman:closed:4:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Anillo,11)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -872,7 +872,7 @@
 (shphysical:D:99:26:(Anillo,29)(Antorcha,28)(Baston,28)(CadenaFuego,19)(CampoEnergia,22)(Cetro,22)(Escudo,25)(Latigo,26)(Lucille,23)(Nullifier,23)(Sable,16))
 (turn:27)
 (map:99)
-(doorman:closed:4:(Acido,1)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Antorcha,5)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -903,7 +903,7 @@
 (shflight:E:99:27:(Baston,15)(LazoVerdad,21)(RayoEnergia,20)(Red,5)(Sable,12)(Tridente,17))
 (turn:28)
 (map:99)
-(doorman:closed:4:(Acido,1)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Armadura,13)(Baston,22)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -933,7 +933,7 @@
 (shflight:E:99:28:(Baston,15)(Cetro,6)(RayoEnergia,20)(Red,5)(Sable,12)(Tridente,17))
 (turn:29)
 (map:99)
-(doorman:closed:4:(Acido,1)(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Acido,1)(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -963,7 +963,7 @@
 (shphysical:W:99:29:(Acido,28)(Antorcha,15)(CampoMagnetico,24)(Capa,19)(Gema,14)(Laser,20)(Lawgiver,23)(LazoVerdad,9)(MazaOro,26))
 (turn:30)
 (map:99)
-(doorman:closed:4:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Escudo,3)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -993,7 +993,7 @@
 (shphysical:W:99:30:(Antorcha,15)(CampoMagnetico,24)(Capa,19)(Gema,14)(Laser,20)(Lawgiver,23)(LazoVerdad,9)(MazaOro,26))
 (turn:31)
 (map:99)
-(doorman:closed:4:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(CampoMagnetico,5)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -1023,7 +1023,7 @@
 (shphysical:W:99:31:(Antorcha,15)(CampoMagnetico,24)(Capa,19)(Gema,14)(Laser,20)(Lawgiver,23)(LazoVerdad,9))
 (turn:32)
 (map:99)
-(doorman:closed:4:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -1053,7 +1053,7 @@
 (shphysical:W:99:32:(Antorcha,15)(Capa,19)(Gema,14)(Laser,20)(Lawgiver,23)(LazoVerdad,9))
 (turn:33)
 (map:99)
-(doorman:closed:4:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
+(doorman:closed:2:(Armadura,13)(Bola,3)(CadenaFuego,11)(CampoEnergia,5)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Garra,22)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -1083,7 +1083,7 @@
 (villain:A:99:33:(Armadura,27))
 (turn:34)
 (map:99)
-(doorman:closed:4:(Armadura,13)(Bola,3)(CadenaFuego,11)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Gema,4))
+(doorman:closed:2:(Armadura,13)(Bola,3)(CadenaFuego,11)(Capa,10)(Cetro,20)(Espada,11)(Flecha,12)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -1113,7 +1113,7 @@
 (villain:V:99:34:(Espada,18))
 (turn:35)
 (map:99)
-(doorman:open:4:(Bola,3)(CadenaFuego,11)(Espada,11)(Gema,4))
+(doorman:closed:2:(Bola,3)(CadenaFuego,11)(Espada,11)(Gema,4))
  _ _ _ _ _ _ _ _ _ _
 |_  |_  | |    _ _  |
 |  _  |  _ _| | |_  |
@@ -1124,7 +1124,7 @@
 | | |_    | |       |
 |P| |  _|_|  _|_| | |
 |    _    |_| |   | |
-|_|_ _|_|_ _ _|_|_ 4|
+|_|_ _|_|_ _ _|_|_ 5|
 (square:0:(Mjolnir,29)(Garra,27)(Red,25)(Armadura,3)(Anillo,1))
 (square:1:(Lawgiver,7)(Escudo,5))
 (square:11:(Capa,11))
@@ -1140,5 +1140,35 @@
 (shflight:E:99:35:)
 (shphysical:W:99:35:(Antorcha,15)(Gema,14)(LazoVerdad,9))
 (villain:A:99:35:(Armadura,27))
+(villain:V:99:35:(Espada,18))
+(turn:36)
+(map:99)
+(doorman:open:2:(Bola,3))
+ _ _ _ _ _ _ _ _ _ _
+|_  |_  | |    _ _  |
+|  _  |  _ _| | |_  |
+| |  _ _  |     | | |
+|_|_   _|_  | | | | |
+|_   _     _ _| | |_|
+|_ _  |_|_| |_   _  |
+| | |_    | |       |
+| | |  _|_|  _|_| | |
+|P   _    |_| |   | |
+|_|_ _|_|_ _ _|_|_ 4|
+(square:0:(Mjolnir,29)(Garra,27)(Red,25)(Armadura,3)(Anillo,1))
+(square:1:(Lawgiver,7)(Escudo,5))
+(square:11:(Capa,11))
+(square:12:(CampoMagnetico,4)(Latigo,2))
+(square:22:(RayoEnergia,8)(CampoEnergia,6))
+(square:27:(Garra,3)(Mjolnir,1))
+(square:37:(GuanteInfinito,9)(Lucille,7))
+(square:47:(Flecha,13)(CadenaFuego,11))
+(square:57:(Tentaculo,4)(MazaOro,2))
+(square:68:(Espada,10)(Nullifier,3)(Gema,1))
+(shextrasensorial:P:80:36:(Bola,10)(Flecha,17)(GuanteInfinito,21)(Tentaculo,24)(Tridente,13))
+(shphysical:D:99:36:(Bola,18)(Laser,8)(Sable,16))
+(shflight:E:99:36:)
+(shphysical:W:99:36:(Gema,14)(LazoVerdad,9))
+(villain:A:99:36:(Armadura,27))
 (teseractomembers)
-(owneroftheworld:(villain:V:1111:35:(Espada,18))
+(owneroftheworld:(villain:V:1111:36:(Espada,18))

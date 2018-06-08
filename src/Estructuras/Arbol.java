@@ -210,6 +210,7 @@ public class Arbol<T extends Comparable<T>> {
 		return altura2;
 	}
 	
+	
 	/**
 	 * Metodo que realiza una busqueda en Anchura de un dato 
 	 * @param A: arbol donde se encuentras los datos
@@ -235,12 +236,11 @@ public class Arbol<T extends Comparable<T>> {
 	}
 	
 	
-	
 	/**
-	 * 
-	 * @param dato
-	 * @param cierto
-	 * @return
+	 * Metodo que nos permite conocer el dato padre de un nodo dado por parametro
+	 * @param dato: dato del cual queremos conocer cual es su padre
+	 * @param cierto: array que indica si hemos encontrado el dato en el arbol
+	 * @return T nodo padre del dato indicado por parametro.
 	 */
 	private T datoPadre(T dato,boolean[] cierto){
 	    Arbol<T> aux=null;
@@ -267,11 +267,56 @@ public class Arbol<T extends Comparable<T>> {
 	    return encontrado;
 	}
 	
-	private LinkedList<T> datosNivel(){
+	
+	/**
+	 * Metodo que nos permite conocer el nivel en el que se encuentra un dato indicado por parametro de entrada
+	 * @param dato: dato el cual queremos conocer su nivel en el arbol
+	 * @param nivel: nivel en el que nos encontramos
+	 * @param aux: arbol auxiliar que nos ayuda a realizar una busqueda binaria del dato
+	 * @return int que indica el nivel al que se encuentra el dato
+	 */
+	private int nivelNodo(T dato,int nivel,  Arbol<T> aux){
+	    if (!vacio()) {
+	        if (aux.datoRaiz.equals(dato))
+	            return nivel;
+	        else {
+	            if (dato.compareTo(aux.datoRaiz)<0)	//dato < datoRaiz
+	                aux=aux.hIzq;
+	            else									//dato > datoRaiz
+	            	aux=aux.hDer;
+	            if (aux!=null)
+	                return nivelNodo(dato,nivel+1,aux);
+	        }
+	    }
+	    return nivel;
+	}
+	
+	
+	/**
+	 * Metodo que nos devuelve una lista con los nodos que se encuentran al mismo nivel que un dato dado por parametro
+	 * @param dato:dato del cual queremos conocer su nivel
+	 * @param aux: arbol auxiliar para realizar la busqueda del resto de datos
+	 * @param nivelDato: nivel del dato pasado por parametro
+	 * @param nivelNodo: nivel en el que nos encontramos en la recursividad.
+	 * @param datosNivel: LinkedList<T> que almacenara los datos que se encuentren al mismo nivel que dato indicado por parametro.
+	 */
+	private void datosNivel(T dato,Arbol<T> aux,int nivelDato,int nivelNodo,LinkedList<T>datosNivel){
 		
-		
-		return null;
-		
+		if (nivelNodo==nivelDato){
+			if(!dato.equals(aux.datoRaiz))
+				datosNivel.add(aux.datoRaiz);
+			
+		}else{
+			
+			if (aux!=null){
+				if (aux.getHijoIzq()!=null)
+					datosNivel(dato,aux.hIzq,nivelDato,nivelNodo+1,datosNivel);
+				
+				if (aux.getHijoDer()!=null)
+					datosNivel(dato,aux.hDer,nivelDato,nivelNodo+1,datosNivel);
+				
+			}
+		}
 	}
 	
 	
@@ -498,10 +543,11 @@ public class Arbol<T extends Comparable<T>> {
 		return 0;
 	}
 	
+	
 	/**
-	 * 
-	 * @param dato
-	 * @return
+	 * Realiza una busqueda en anchura dentro del arbol
+	 * @param dato: dato que queremos buscar dentro del arbol
+	 * @return True si el dato se encuentra en el arbol, False si no esta
 	 */
 	public boolean busquedaAnchura(T dato){
 		if (!this.vacio()){
@@ -510,6 +556,11 @@ public class Arbol<T extends Comparable<T>> {
 		return false;
 	}
 	
+	
+	/**
+	 * Metodo que nos permite conocer el numero de nodos del arbol 
+	 * @return int que indica el numero de nodos que tiene el arbol
+	 */
 	public int numNodos(){
 		Arbol<T> aux=null;
 		int total=0;
@@ -528,6 +579,11 @@ public class Arbol<T extends Comparable<T>> {
 	}
 	
 	
+	/**
+	 * Metodo que nos devuelve el nodo padre al dato indicado por parametro
+	 * @param dato: dato que queremos buscar dentro del arbol
+	 * @return T: nodo padre al dato pasado por parametro.
+	 */
 	public T datoPadre(T dato){
 		boolean[] cierto;
 		cierto=new boolean[1];
@@ -537,6 +593,29 @@ public class Arbol<T extends Comparable<T>> {
 		
 	}
 	
+	
+	/**
+	 * Metodo que nos permite conocer el nivel en el que se encuentra un dato indicado por parametro de entrada
+	 * @param dato: dato el cual queremos conocer su nivel en el arbol
+	 * @return int que indica el nivel en el que se encuentra el dato 
+	 */
+	public int nivelNodo(T dato){
+		return nivelNodo(dato,0,this);
+	}
+	
+	/**
+	 * Metodo que nos devuelve una lista con los nodos que se encuentran al mismo nivel que un dato dado por parametro
+	 * @param dato: dato del cual queremos conocer su nivel 
+	 * @return LinkedList<T> con los nodos que se encuentran en el mismo nivel que el dato indicado por parametro de entrada
+	 */
+	public LinkedList<T> datosNivel(T dato){
+		LinkedList<T> datosNivel=new LinkedList<T>();
+		int nivelDato=nivelNodo(dato,0,this);
+		datosNivel(dato, this,nivelDato, 0, datosNivel);
+		return datosNivel;
+	}
+	
+
 	
 
 	

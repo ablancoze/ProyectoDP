@@ -112,9 +112,7 @@ public class Mapa {
 		kruskal();
 		pintarMapa();
 		atajos();
-//		pintarMapa();
 		configurarMapa();
-		//pintarRutas();
 	}
 	
 	
@@ -312,10 +310,12 @@ public class Mapa {
 		Collections.sort(salas, Collections.reverseOrder(new OrdenarSalas()));
 		int aux=0;
 		while(aux < armasSalas.length) {
-			for (int j = aux; salas.getFirst().tamañoArmas()<5 && armasSalas.length > j ; j++) {
-				salas.getFirst().insertarArma(armasSalas[j]);
+			if (!salas.isEmpty()){
+				for (int j = aux; salas.getFirst().tamañoArmas()<5 && armasSalas.length > j ; j++) {
+					salas.getFirst().insertarArma(armasSalas[j]);
+				}
+				salas.removeFirst();
 			}
-			salas.removeFirst();
 			aux=aux+5;	
 		}
 	}
@@ -1045,6 +1045,53 @@ public class Mapa {
 	 */
 	public int siguienteNodo(int origen, int destino) {
 		return this.grafoMapa.siguiente(origen, destino);
+	}
+	
+	
+/**Metodos para pruebas de estructuras de datos**/
+	
+	
+	/**
+	 * Permite conocer la excentricidad de un nodo
+	 * @param vertice
+	 * @return int que indica la excentricidad de un nodo
+	 */
+	public int excentricidad(int vertice){
+		return this.grafoMapa.excentricidad(vertice);
+	}
+	
+	
+	/**
+	 * Metodo que devuelve el identificador de la sala central
+	 * @return int que indica el nodo central del mapa
+	 */
+	public int salaCentral(){
+		return this.grafoMapa.nodoCentral();
+	}
+	
+	
+	/**
+	 * Metodo que permite tirar una pared del mapa 
+	 * @param sala1 int que indica el identificador de la sala con pared
+	 * @param sala2 int que indica el indentificador de la sala colindante a la anterior
+	 */
+	public void tirarPared(int sala1, int sala2){
+		grafoMapa.nuevoArco(sala1, sala2, 1);
+		grafoMapa.nuevoArco(sala2, sala1, 1);
+		grafoMapa.warshall();
+		grafoMapa.floyd();
+		pintarMapa();
+	}
+	
+	
+	/**
+	 * Metodo que permite conocer si un vertice es ciclico
+	 * @param vertice: int que indica el nodo 
+	 * @return True si el vertice es ciclico, False si no lo es.
+	 */
+	public boolean esCiclico(int vertice){
+		Grafo g=new Grafo(grafoMapa);
+		return g.existeCiclo(vertice);
 	}
 }
 
